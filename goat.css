@@ -3,38 +3,65 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    list-style: none;
 }
-header{
+.navbar{
     display: flex;
+    flex-direction: row;
     width: 100%;
-    background-color: #7287ae;
     height: 12vh;
-    align-items: center;
     justify-content: center;
-    position: sticky;
+   align-items: center;
+   background-color: #7287ae;
+   position: sticky;
     top:0;
     z-index: 20;
-}
-nav ul li{
- list-style: none;
- padding: 0 20px;
- 
-}
-nav{
-    display: flex;
-    padding: 20px 40px;
-}
-ul{
-    display: flex;
     
 }
-nav ul li a{
-    text-decoration: none;
+.left{
+    width: 60vw;
+    
+    padding: auto;
+    font-family: 'Kenia', cursive;
+    font-size: 37px;
+    margin: auto 20px;
+   
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    
+   justify-content: center;
+   align-items: center;
+   margin: auto 20px;
 }
 nav ul li a:hover{
     color: #dfe9c1;
    
 }
+.nav-list li{
+    padding: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+}
+.burger{
+    position: absolute;
+    right: 5%;
+    top:35px;
+    display: none;
+
+}
+.lin{
+    width: 33px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 3px;
+}
+
+
 /* endpart */
 .custom-shape-divider-bottom-1687021107 {
     position: absolute;
@@ -57,21 +84,7 @@ nav ul li a:hover{
     fill: #dfe9c1;
 }
 
-.right{
-    max-width :30vw;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-}
-.left{
-    min-width: 70vw;
-    font-family: 'Kenia', cursive;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
 
-}
 
 /* design1 */
 .design1{
@@ -323,6 +336,7 @@ font-family: 'Roboto Mono', monospace;
 }
 .fire{
     display: flex;
+    flex-direction: row;
     font-family: 'Oswald', sans-serif;
 }
 .rat{
@@ -364,7 +378,6 @@ font-family: 'Roboto Mono', monospace;
 
 .part2{
     height: 70vh;
-    background-color:#272c31 ;
     position: relative;
 
 }
@@ -499,14 +512,22 @@ font-family: 'Roboto Mono', monospace;
 
   /* new last */
   footer{
-    height: 40vh;
-    
+    height: 45vh;
     background-color: #7287ae;
   }
   .end{
     display: flex;
     flex-direction: row;
   }
+
+  .index{
+    display: flex;
+    flex-direction: row;
+     margin: auto;
+    max-width: 40vw;
+    color: white;
+}
+
   .main-left{
     width: 60vw;
     margin: auto;
@@ -522,10 +543,9 @@ font-family: 'Roboto Mono', monospace;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
   }
-  .main{
-    margin: auto;
-    max-width: 40vw;
-    color: white;
+  .main{ 
+    padding: 15px 30px;
+   
   }
 .main h2{
     font-size: 30px;
@@ -542,6 +562,7 @@ font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     cursor: pointer;
 }
+
 .main p:hover{
     color:rgb(87, 69, 69);
 }
