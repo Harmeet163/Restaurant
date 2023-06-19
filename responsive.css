@@ -1,4 +1,4 @@
-@media screen and (max-width:640px){
+@media screen and (max-width:840px){
   .navbar{
     flex-direction: column;
    
@@ -34,14 +34,85 @@
   }
 
 
+ /* first page */
+.first-content{
+  justify-content: baseline;
+  margin: auto;
+ 
+}
+  /* sec page */
+  .second-content h2{
+    padding: 20px 0;
+  }
+  .second-content{
+    min-height: 180vh;
+  }
+  .topdish{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .item1{
+    max-height: 50vh;
+    width: 80%;
+    background-color: #ffffff;
+    margin: 10px;
+}
+.item1 img{   
+  width: 100%;
+  height: 60%;
+
+}
+.item1 h4{
+  padding: 7px;
+  font-size: 22px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.item1 p{
+  padding: 5px ;
+  font-family: 'Ubuntu', sans-serif;
+}
+.show{
+  padding: 7px 25px;
+}
+
+
+  /* new page */
+ .holder{
+  width: 100%;
+ }
+ .node{
+  max-height: 40vh;
+ }
+ .node .lefta img,
+ .node .righta img {
+ min-width: 100%;
+ gap: 0;
+ max-height: 40vh;
+ object-fit:fill;         
+ }
+ .node h2{
+  width:80%;
+font-size: 30px;
+}
+ .node p{
+  width: 80%;
+  font-size: 15px;
+ }
+ .node button{
+  padding: 7px 15px;
+  font-size: 15px;
+ }
 
 
 /*  */
 .four-container{
-  height: 150vh;
+  min-height: 150vh;
+  padding: 10px 0;
 }
 .part1{
-  height: 100vh;
+  height: 104vh;
 }
 .fire{
   flex-direction: column;
@@ -82,7 +153,7 @@
 }
   /* footer part */
   footer{
-    height: 65vh;
+    height: 89vh;
   }
   .end{
     flex-direction: column;
@@ -99,14 +170,26 @@
     width: 100%;;
   }
   .main{ 
-    padding: 15px 30px;
-   
+    padding: 15px 20px;
+  }
+  .mark{
+    padding: 20px 0 15px;
+    text-align: center;
+    font-size: 12px;
   }
   
 
 }
 
 
+@media screen and (max-width:410px){
+
+
+
+
+
+
+}
 
 
 /* 
