@@ -76,7 +76,9 @@
 .show{
   padding: 7px 25px;
 }
-
+.last{
+  min-height: 50vh;
+}
 
   /* new page */
  .holder{
@@ -112,7 +114,7 @@ font-size: 30px;
   padding: 10px 0;
 }
 .part1{
-  height: 104vh;
+  min-height: 104vh;
 }
 .fire{
   flex-direction: column;
@@ -153,7 +155,7 @@ font-size: 30px;
 }
   /* footer part */
   footer{
-    height: 89vh;
+    height: 65vh;
   }
   .end{
     flex-direction: column;
